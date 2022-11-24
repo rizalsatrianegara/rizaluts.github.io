@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is a website landing page">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Rizal Labs</title>
+    <link rel="shortcut icon" href="./assets/images/ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <h1 id="header__logo__title">Rizal Labs</h1>
+        </div>
+        <nav class="nav">
+            <ul class="nav__lists">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#clients">Clients</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
+        <button class="btn-hamburger" aria-label="btn-hamburger"><i class="fa fa-bars"></i></button>
+    </header>
+    <main>
+        <div id="content">
+            <article class="intro-containers" id="home">
+                <div class="intro">
+                    <div class="intro__image">
+                        <img src="./assets/images/vector.png" alt="image vector">
+                    </div>
+                    <div class="intro__content">
+                        <h1>Show your problem and i will to resolve it</h1>
+                        <p>Nazirov Labs merupakan salah satu startup yang bergerak dalam bidang software development, yang mana didalam startup ini kami menyediakan layanan khusus dalam pembuatan sistem informasi baik berbasis web, mobile, maupun desktop.</p>
+                        <button id="btn-hubungi-saya" aria-label="hubungi saya">Hubungi Saya</button>
+                    </div>
+                </div>
+            </article>
+            <article class="clients" id="clients">
+                <div class="clients__title">
+                    <h1>Clients</h1>
+                </div>
+                <div class="clients__list">
+                    <!-- Inject from DOM -->
+                </div>
+            </article>
+            <article class="services" id="services">
+                <div class="services__title">
+                    <h1>Services</h1>
+                </div>
+                <div class="services__list">
+                    <!-- Inject from DOM -->
+                </div>
+            </article>
+            <article class="contacts" id="contacts">
+                <div class="contacts__title">
+                    <h1>Contacts</h1>
+                </div>
+                <form class="contacts__form">
+                    <div class="form__name">
+                        <input type="text" class="form__firstname" placeholder="Masukkan nama depan Anda">
+                        <input type="text" class="form__lastname" placeholder="Masukkan nama belakang Anda">
+                    </div>
+                    <input type="text" class="form__email" placeholder="Masukkan email Anda">
+                    <textarea type="text" class="form__deskripsi" placeholder="Masukkan deskripsi Anda"></textarea>
+                    <button class="btn-form" aria-label="kirim">Kirim</button>
+                </form>
+            </article>
+        </div>
+        <aside class="aside__profile">
+            <article>
+                <header>
+                    <h1 class="aside__profile__title">Profile</h1>
+                </header>
+                <section>
+                    <h2>Rizal Satria Negara</h2>
+                    <img src="./assets/images/rizal satria ing madukara.jpg" alt="my profile">
+                    <h3>Mahasiswa | Playboy</h3>
+                    <p>مَنْ جَدوجد</p>
+                    <p><q>Barang siapa yang akan bersungguh-sunggu, maka dia akan berhasil</q></p>
+                </section>
+            </article>
+        </aside>
+        <div class="aside__fab">
+            <button class="fab-btn" aria-label="go to top"><i class="fa fa-arrow-up"></i></button>
+        </div>
+    </main>
+    <footer>
+        <div class="footer__socialmedia">
+            <a href="https://www.instagram.com/nazirazhari65" class="sm" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100008107180557" class="sm" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook"></i></a>
+            <a href="https://id.linkedin.com/in/muhammad-nazir-azhari-55aa021a9" class="sm" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
+            <a href="https://github.com/nazirovdev" class="sm" target="_blank" rel="noopener noreferrer"><i class="fa fa-github"></i></a>
+        </div>
+        <div class="footer__description">
+            <p>Made with <span><i class="fa fa-heart"></i> by Nazirovdev 2022</span></p>
+        </div>
+    </footer>
+    <script src="./assets/script/app.js" type="module"></script>
+</body>
+</html>
